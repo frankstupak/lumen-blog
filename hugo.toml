@@ -1,0 +1,25 @@
+baseURL = 'https://frankstupak.github.io/lumen-blog/'
+languageCode = 'en-us'
+title = 'Lumen — Surface Pro Linux Hub'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  description = 'Surface Pro Linux accessories, refurbishment guides, and tutorials'
+  author = 'Lumen'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = 'Surface Pro Linux Hub'
+  Content = 'Accessories, refurbishment guides, and Linux tips for Surface Pro users.'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/frankstupak'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'

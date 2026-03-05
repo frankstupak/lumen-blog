@@ -23,3 +23,15 @@ paginate = 10
 [taxonomies]
   category = 'categories'
   tag = 'tags'
+
+[params.env]
+  HUGO_BASEURL = 'https://frankstupak.github.io/lumen-blog/'
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[params.label]
+  text = 'Lumen Linux'
+

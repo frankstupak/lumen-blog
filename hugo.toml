@@ -2,7 +2,8 @@ baseURL = 'https://frankstupak.github.io/lumen-blog/'
 languageCode = 'en-us'
 title = 'Lumen — Surface Pro Linux Hub'
 theme = 'PaperMod'
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   googleSiteVerification = "googleba62606d362016e2"

@@ -1,9 +1,13 @@
 ---
-title: "Best USB-C Docks for Surface Pro on Linux 2026"
+title: "Best USB-C Docks for Surface Pro on Linux (2026)"
 date: 2026-03-05
 draft: false
-categories: ["accessories"]
-description: "Best USB-C Docks for Surface Pro on Linux 2026 — guide for Linux users on Surface Pro."
+description: "Top USB-C and Thunderbolt 4 docks for Surface Pro on Linux. Anker, CalDigit, and Plugable tested with Ubuntu 24.04."
+tags:
+  - "usb-c-dock-linux"
+  - "thunderbolt-dock-surface-pro"
+  - "surface-pro-dock-2026"
+  - "caldigit-linux"
 ---
 
 ## Best USB-C Docks for Surface Pro on Linux 2026
@@ -67,3 +71,10 @@ After installation, you can connect your Surface Pro to the dock and start using
 ### Conclusion
 
 Finding a reliable USB-C dock for your Surface Pro running Linux can be a bit of a challenge, but with the right product, you can enjoy a seamless and productive experience. The Logitech Dock Dock+, Anker PowerPort Pro 10, Belkin Thunderbolt 3 Docking Station, and Microsoft Surface Dock are all excellent options that should meet your needs. Whether you're looking for a simple setup or a more advanced solution, there's a dock out there that can help you get the most out of your Surface Pro and Linux.
+
+---
+
+**Related Posts:**
+- [full Surface Pro Linux accessories guide](/lumen-blog/posts/2026-03-04-surface-pro-linux-accessories/)
+- [battery tips](/lumen-blog/posts/2026-03-04-surface-pro-battery-optimization-on-linux/)
+

@@ -1,9 +1,13 @@
 ---
-title: "Surface Pro Battery Optimization on Linux"
+title: "Surface Pro Battery Optimization on Linux (2026 Guide)"
 date: 2026-03-04
 draft: false
-categories: ["linux"]
-description: "Surface Pro Battery Optimization on Linux — complete guide for Linux users."
+description: "Fix Surface Pro battery drain on Linux. TLP config, power profiles, and thermald tuning to get 8+ hours on Ubuntu and Fedora."
+tags:
+  - "surface-pro-linux-battery"
+  - "tlp-linux"
+  - "power-management-linux"
+  - "surface-pro-ubuntu"
 ---
 
 # Surface Pro Battery Optimization on Linux
@@ -105,3 +109,10 @@ Remember to always follow the manufacturer's guidelines and recommendations for 
 * [Official Surface Pro Battery Documentation](https://support.microsoft.com/en-us/answers/answer detail/battery)
 * [Linux Battery Optimization Guide](https://wiki.linux.org/wiki/Battery)
 * [Battery-Saving Apps for Linux](https://www.linux.org/docs/whatsnew/linux-5.0/linux-5.0-etc/ battery-savings-apps.html)
+
+---
+
+**Related Posts:**
+- [best Linux distros for Surface Pro](/lumen-blog/posts/2026-03-04-best-linux-distros-for-surface-pro-in-2026/)
+- [Surface Pro Linux accessories](/lumen-blog/posts/2026-03-04-surface-pro-linux-accessories/)
+

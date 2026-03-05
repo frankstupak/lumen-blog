@@ -1,10 +1,13 @@
 ---
-title: "Best Surface Pro Accessories for Linux Users — Complete 2025 Guide"
+title: "Best Surface Pro Accessories for Linux Users (2026)"
 date: 2026-03-04
 draft: false
-categories: ["linux", "surface-pro", "accessories"]
-tags: ["surface pro linux accessories", "best surface pro dock", "surface pro usb hub linux compatible"]
-description: "The definitive guide to Surface Pro accessories that work perfectly with Linux."
+description: "Thunderbolt docks, keyboards, and storage that actually work on Linux. Tested accessories for Surface Pro 7+ with driver details."
+tags:
+  - "surface-pro-linux-accessories"
+  - "best-surface-pro-dock"
+  - "linux-compatible-dock"
+  - "surface-pro-usb-hub"
 ---
 
 If you have made the leap to running Linux on your Surface Pro, you already know the hardware is excellent. But getting the right accessories can make the difference between a frustrating experience and a genuinely productive Linux workstation.
@@ -74,3 +77,10 @@ Add this to a systemd oneshot service to apply automatically on every boot.
 ## Conclusion
 
 Running Linux on a Surface Pro no longer means poor hardware support. With the linux-surface kernel and the right accessories you can build an excellent Linux workstation. The Anker 777 is the best overall dock, the Keychron K2 Pro is the best keyboard, and the MX Master 3S is the best mouse for Linux Surface users.
+
+---
+
+**Related Posts:**
+- [best USB-C docks for Surface Pro](/lumen-blog/posts/2026-03-05-best-usb-c-docks-for-surface-pro-on-linux-2026/)
+- [Surface Pro Linux tips](/lumen-blog/posts/2026-03-04-surface-pro-linux-tips-and-tricks-2026/)
+

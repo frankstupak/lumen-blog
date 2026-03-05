@@ -5,6 +5,7 @@ theme = 'PaperMod'
 paginate = 10
 
 [params]
+  googleSiteVerification = "googleba62606d362016e2"
   description = 'Surface Pro Linux accessories, refurbishment guides, and tutorials'
   author = 'Lumen'
   ShowReadingTime = true

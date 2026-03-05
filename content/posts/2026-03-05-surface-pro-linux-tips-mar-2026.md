@@ -7,34 +7,62 @@ description: "Surface Pro Linux Tips — Mar 2026 — guide for Linux users on S
 ---
 
 ## Introduction
-As a Linux user on a Microsoft Surface Pro, you're part of a unique group that values flexibility, performance, and the freedom to customize your operating system. The Surface Pro series, known for its sleek design, powerful hardware, and versatility, can be an excellent choice for running Linux, offering a seamless blend of mobility and productivity. However, to truly unlock the potential of your Surface Pro with Linux, you need the right tips and accessories. This guide is designed to provide you with the essential surface pro linux tips to enhance your user experience, from choosing the right hardware accessories to optimizing your Linux installation.
+As a Linux user, running your favorite operating system on a Microsoft Surface Pro can be a dream come true. The Surface Pro's sleek design, portability, and powerful hardware make it an ideal device for those who want a high-performance laptop that can handle demanding tasks. However, getting the most out of your Surface Pro with Linux requires some tweaking and optimization. In this post, we'll dive into some essential Surface Pro Linux tips to help you unlock your device's full potential.
 
-## Choosing the Right Dock for Your Surface Pro
-One of the first considerations for maximizing the potential of your Surface Pro under Linux is selecting the right dock. A good dock can transform your ultrabook into a full-fledged desktop workstation, complete with multiple monitor support, Ethernet connectivity, and plenty of USB ports for your peripherals. When it comes to Thunderbolt 4 docks, two standout options are the [Anker 777 Thunderbolt 4 Dock](https://www.amazon.com/dp/B0B2KBMB3M?tag=tinywhale-20) and the [CalDigit TS4 Thunderbolt 4 Dock](https://www.amazon.com/dp/B09GK8LBWS?tag=tinywhale-20). Both offer excellent performance, with support for dual 4K displays and up to 85W of power delivery to keep your Surface Pro charged. For those looking for a more budget-friendly option with similar functionality, the [Plugable 14-in-1 USB-C Dock](https://www.amazon.com/dp/B08HR3MPN4?tag=tinywhale-20) is a great alternative, although it may not offer the same level of Thunderbolt 4 performance.
+## Choosing the Right Linux Distribution
+Before we dive into the tips, it's essential to choose a Linux distribution that's compatible with your Surface Pro. Some popular distributions that work well with the Surface Pro include Ubuntu, Fedora, and openSUSE. When selecting a distribution, consider factors such as hardware support, software availability, and community support. For example, Ubuntu is a popular choice due to its vast software repository and large community of users.
 
-To take full advantage of these docks under Linux, ensure that your distribution supports Thunderbolt 4 and that you have the necessary firmware updates installed. You can check the status of your Thunderbolt devices with the command `boltctl list`, and update your firmware with `boltctl update`.
+To install Linux on your Surface Pro, you'll need to create a bootable USB drive. You can use tools like Rufus or Etcher to create a bootable USB drive from an ISO file. Once you've created the bootable USB drive, restart your Surface Pro and enter the UEFI firmware settings by pressing the Volume Down button and the Power button simultaneously. From there, you can select the USB drive as the boot device and follow the installation prompts.
 
-## Enhancing Storage and Performance
-Storage is another critical aspect of your Surface Pro's performance. If you find that your internal storage is becoming limited, consider expanding your storage capabilities with external solutions. The [Samsung T7 Shield Portable SSD](https://www.amazon.com/dp/B09QBN6HCJ?tag=tinywhale-20) is an excellent choice, offering rugged durability, high-speed data transfer rates, and compatibility with Linux. For microSD card slots, which can be useful for expanding storage or transferring files, the [SanDisk Extreme Pro microSD](https://www.amazon.com/dp/B09X7BK27V?tag=tinywhale-20) offers exceptional read and write speeds, making it ideal for demanding applications like video editing or running virtual machines.
+## Optimizing Performance
+One of the most significant advantages of running Linux on a Surface Pro is the ability to optimize performance. By default, the Surface Pro's hardware is tuned for Windows, so you may need to make some adjustments to get the best performance out of your device. One way to optimize performance is to install the linux-surface kernel, which provides better support for the Surface Pro's hardware.
 
-To optimize your storage under Linux, consider using tools like `fstrim` to trim unnecessary data from your SSDs, which can help maintain their performance over time. You can run `fstrim` with the command `sudo fstrim -v /`, replacing `/` with the mount point of the SSD you wish to trim.
+To install the linux-surface kernel, you can use the following command:
+```bash
+sudo apt-get update && sudo apt-get install linux-surface
+```
+This will install the linux-surface kernel and configure your system to use it. You can then reboot your system to apply the changes.
 
-## Optimizing Your Workflow with the Right Peripherals
-The right peripherals can significantly enhance your productivity on the Surface Pro. For mouse users, the [Logitech MX Master 3S](https://www.amazon.com/dp/B09HM94VDS?tag=tinywhale-20) is a top choice, offering precise control, long battery life, and a comfortable design that fits well in the hand. If you prefer typing on a physical keyboard, the [Keychron K2 Pro Mechanical Keyboard](https://www.amazon.com/dp/B0BLP6FNGP?tag=tinywhale-20) is a great option, providing tactile feedback, customizable backlighting, and wireless connectivity.
+Another way to optimize performance is to adjust the power settings on your Surface Pro. By default, the Surface Pro is set to balance power consumption and performance. However, if you're running demanding applications, you may want to adjust the power settings to prioritize performance. You can use the following command to adjust the power settings:
+```bash
+sudo systemctl set-property systemd.cpu_affinity 0-7
+```
+This will set the CPU affinity to use all available CPU cores, which can help improve performance.
 
-To get the most out of your peripherals under Linux, ensure that your system recognizes and configures them properly. You can use tools like `xinput` to list and configure your input devices, such as mice and keyboards. For example, to list all input devices, you can use the command `xinput --list`.
+## Expanding Storage and Connectivity
+One of the limitations of the Surface Pro is its limited storage capacity. However, you can easily expand your storage capacity using external storage devices. The Surface Pro has a USB-C port that supports Thunderbolt 3, which allows you to connect high-speed storage devices.
 
-## Power and Connectivity Solutions
-Keeping your Surface Pro powered and connected on the go is essential. The [Anker 65W USB-C Charger](https://www.amazon.com/dp/B09C6JNVB8?tag=tinywhale-20) is a compact and powerful charger that can quickly top off your battery, supporting fast charging protocols. For those who prefer the official Microsoft accessories, the [Microsoft Surface Pro 7+](https://www.amazon.com/dp/B08RH6WNWQ?tag=tinywhale-20) comes with a high-quality charger, and the [Microsoft Surface Pro Signature Type Cover](https://www.amazon.com/dp/B07N2KFMZG?tag=tinywhale-20) provides a comfortable typing experience with the added benefit of protection for your screen.
+One option for expanding storage is the Samsung T7 Shield Portable SSD, which offers fast read and write speeds and is compatible with the Surface Pro. You can connect the Samsung T7 Shield to your Surface Pro using a Thunderbolt 3 cable and use it to store your files, applications, and operating system.
 
-To manage power consumption under Linux, you can use tools like `powertop` to analyze and optimize your system's power usage. Running `powertop` with the command `sudo powertop` can help you identify areas where you can improve power efficiency.
+Another option for expanding connectivity is to use a USB-C dock. The Anker 777 Thunderbolt 4 Dock is a popular choice that offers multiple USB-A ports, an HDMI port, and a Thunderbolt 3 port. You can connect the Anker 777 to your Surface Pro using a Thunderbolt 3 cable and use it to connect multiple devices, such as a keyboard, mouse, and monitor.
 
-## Customizing and Optimizing Linux for Your Surface Pro
-Customizing your Linux installation to work seamlessly with your Surface Pro involves several steps. First, ensure that your Linux distribution is fully updated and that you have the latest firmware installed for your hardware components. You can update your system with the command `sudo apt update && sudo apt full-upgrade`, replacing `apt` with your distribution's package manager if necessary.
+If you prefer a more compact dock, the Plugable 14-in-1 USB-C Dock is a great option. It offers multiple USB-A ports, an HDMI port, and a USB-C port, and is compatible with the Surface Pro.
 
-Second, consider installing drivers or kernel modules that are specific to your Surface Pro's hardware, such as the linux-surface kernel, which provides optimized support for Surface devices. You can check the availability of these drivers in your distribution's repositories or compile them from source if necessary.
+## Improving Productivity
+To get the most out of your Surface Pro, you'll want to invest in some essential accessories. One of the most important accessories is a good keyboard. The Microsoft Surface Pro Signature Type Cover is a popular choice that offers a comfortable typing experience and is compatible with the Surface Pro.
 
-Lastly, for a more personalized experience, you can tweak various system settings, such as display calibration, touchpad sensitivity, and keyboard shortcuts, using tools like `xinput` for input devices and your desktop environment's settings panel for display and other preferences.
+Another essential accessory is a mouse. The Logitech MX Master 3S is a popular choice that offers precise cursor control and is compatible with the Surface Pro.
+
+If you're looking for a more ergonomic typing experience, the Keychron K2 Pro Mechanical Keyboard is a great option. It offers a compact tenkeyless design and is compatible with the Surface Pro.
+
+## Protecting Your Data
+Finally, it's essential to protect your data by using a high-quality microSD card. The SanDisk Extreme Pro microSD is a popular choice that offers fast read and write speeds and is compatible with the Surface Pro.
+
+To use the SanDisk Extreme Pro microSD with your Surface Pro, you'll need to insert it into the microSD card slot on the device. You can then use the microSD card to store your files, applications, and operating system.
 
 ## Conclusion
-Running Linux on a Microsoft Surface Pro can be a highly rewarding experience, offering a unique blend of portability, performance, and customization. By following the surface pro linux tips outlined in this guide, from choosing the right dock and storage solutions to optimizing your peripherals and Linux installation, you can unlock the full potential of your device. Whether you're a developer, designer, or simply a Linux enthusiast, the Surface Pro, combined with the right accessories and a well-tuned Linux setup, can be an indispensable tool for productivity and creativity. Remember, the key to getting the most out of your Surface Pro under Linux is to stay informed about the latest developments in Linux compatibility, keep your system updated, and continually explore new ways to customize and optimize your setup.
+In conclusion, running Linux on a Microsoft Surface Pro can be a great way to unlock your device's full potential. By choosing the right Linux distribution, optimizing performance, expanding storage and connectivity, improving productivity, and protecting your data, you can get the most out of your Surface Pro. Whether you're a developer, student, or simply a Linux enthusiast, the Surface Pro is a great device that can handle demanding tasks and provide a seamless user experience.
+
+Some of the products mentioned in this post include:
+- Anker 777 Thunderbolt 4 Dock: https://www.amazon.com/dp/B0B2KBMB3M?tag=tinywhale-20
+- CalDigit TS4 Thunderbolt 4 Dock: https://www.amazon.com/dp/B09GK8LBWS?tag=tinywhale-20
+- Plugable 14-in-1 USB-C Dock: https://www.amazon.com/dp/B08HR3MPN4?tag=tinywhale-20
+- Samsung T7 Shield Portable SSD: https://www.amazon.com/dp/B09QBN6HCJ?tag=tinywhale-20
+- Logitech MX Master 3S: https://www.amazon.com/dp/B09HM94VDS?tag=tinywhale-20
+- Keychron K2 Pro Mechanical Keyboard: https://www.amazon.com/dp/B0BLP6FNGP?tag=tinywhale-20
+- SanDisk Extreme Pro microSD: https://www.amazon.com/dp/B09X7BK27V?tag=tinywhale-20
+- Microsoft Surface Pro 7+: https://www.amazon.com/dp/B08RH6WNWQ?tag=tinywhale-20
+- Anker 65W USB-C Charger: https://www.amazon.com/dp/B09C6JNVB8?tag=tinywhale-20
+- Microsoft Surface Pro Signature Type Cover: https://www.amazon.com/dp/B07N2KFMZG?tag=tinywhale-20
+
+By following these Surface Pro Linux tips and investing in the right accessories, you can unlock your device's full potential and enjoy a seamless Linux experience.

@@ -17,49 +17,49 @@ Windows handles driver mismatches automatically. Linux does not. The accessories
 
 ### Anker 777 Thunderbolt Dock (Best Overall)
 
-The [Anker 777 Thunderbolt Dock](https://amzn.to/PLACEHOLDER) is the most reliable dock for Linux Surface users. Thunderbolt 4 has excellent mainline kernel support via the thunderbolt driver. You get 4K DisplayPort output, 90W power delivery, three USB-A 3.2 ports, two USB-C ports, 2.5Gb Ethernet, and SD card reader. Everything enumerates correctly on kernel 6.8 and above. Ethernet uses the r8153 driver which is in-tree and rock solid.
+The [Anker 777 Thunderbolt Dock](https://www.amazon.com/dp/B0B2KBMB3M?tag=tinywhale-20) is the most reliable dock for Linux Surface users. Thunderbolt 4 has excellent mainline kernel support via the thunderbolt driver. You get 4K DisplayPort output, 90W power delivery, three USB-A 3.2 ports, two USB-C ports, 2.5Gb Ethernet, and SD card reader. Everything enumerates correctly on kernel 6.8 and above. Ethernet uses the r8153 driver which is in-tree and rock solid.
 
 Linux compatibility: Full support, hot-plug works reliably.
 
 ### CalDigit TS4 Thunderbolt 4 Dock (Premium Pick)
 
-The [CalDigit TS4](https://amzn.to/PLACEHOLDER) offers 18 ports including dual Thunderbolt 4 downstream, three DisplayPort outputs, and 2.5Gb Ethernet. CalDigit uses standard Thunderbolt controllers with no proprietary firmware so it performs perfectly on Linux. The 98W power delivery keeps your Surface charged even under heavy load.
+The [CalDigit TS4](https://www.amazon.com/dp/B09GK8LBWS?tag=tinywhale-20) offers 18 ports including dual Thunderbolt 4 downstream, three DisplayPort outputs, and 2.5Gb Ethernet. CalDigit uses standard Thunderbolt controllers with no proprietary firmware so it performs perfectly on Linux. The 98W power delivery keeps your Surface charged even under heavy load.
 
 Best for users running multiple external monitors.
 
 ### Plugable UD-6950H (Budget Pick)
 
-The [Plugable UD-6950H](https://amzn.to/PLACEHOLDER) uses DisplayLink technology and delivers 4K output at a fraction of the Thunderbolt cost. Under Linux install the evdi kernel module with: sudo apt install dkms evdi-dkms. Once installed it works reliably for single monitor setups.
+The [Plugable UD-6950H](https://www.amazon.com/dp/B08HR3MPN4?tag=tinywhale-20) uses DisplayLink technology and delivers 4K output at a fraction of the Thunderbolt cost. Under Linux install the evdi kernel module with: sudo apt install dkms evdi-dkms. Once installed it works reliably for single monitor setups.
 
 ## Best USB Hubs
 
 ### Anker 10-Port USB 3.0 Hub
 
-The [Anker 10-Port Hub](https://amzn.to/PLACEHOLDER) uses the VIA Labs VL812 controller which has been in the Linux kernel for years. Plug it in and it works with no configuration needed.
+The [Anker 10-Port Hub](https://www.amazon.com/dp/B0B2KBMB3M?tag=tinywhale-20) uses the VIA Labs VL812 controller which has been in the Linux kernel for years. Plug it in and it works with no configuration needed.
 
 ### HooToo USB-C Hub 7-in-1
 
-The [HooToo 7-in-1](https://amzn.to/PLACEHOLDER) includes HDMI, USB-A ports, SD card slot, and pass-through charging. The HDMI output uses a standard chipset that works with the drm driver. Good choice for travel.
+The [HooToo 7-in-1](https://www.amazon.com/s?k=HooToo+7-in-1&tag=tinywhale-20) includes HDMI, USB-A ports, SD card slot, and pass-through charging. The HDMI output uses a standard chipset that works with the drm driver. Good choice for travel.
 
 ## Keyboards and Mice
 
 ### Keychron K2 Pro
 
-The [Keychron K2 Pro](https://amzn.to/PLACEHOLDER) connects via USB-C or Bluetooth. Both work flawlessly on Linux using standard HID protocol with no proprietary receiver needed.
+The [Keychron K2 Pro](https://www.amazon.com/dp/B0BLP6FNGP?tag=tinywhale-20) connects via USB-C or Bluetooth. Both work flawlessly on Linux using standard HID protocol with no proprietary receiver needed.
 
 ### Logitech MX Master 3S
 
-The [Logitech MX Master 3S](https://amzn.to/PLACEHOLDER) is the gold standard for Linux productivity. All buttons work via libinput. Install logiops for per-application profiles.
+The [Logitech MX Master 3S](https://www.amazon.com/dp/B09HM94VDS?tag=tinywhale-20) is the gold standard for Linux productivity. All buttons work via libinput. Install logiops for per-application profiles.
 
 ## Storage
 
 ### Samsung T7 Shield SSD
 
-The [Samsung T7 Shield](https://amzn.to/PLACEHOLDER) delivers 1050MB/s read via USB-C. Enumerates as standard UAS storage with no drivers needed.
+The [Samsung T7 Shield](https://www.amazon.com/dp/B09QBN6HCJ?tag=tinywhale-20) delivers 1050MB/s read via USB-C. Enumerates as standard UAS storage with no drivers needed.
 
 ### SanDisk Extreme Pro microSD
 
-The [SanDisk Extreme Pro](https://amzn.to/PLACEHOLDER) at 200MB/s is the fastest card the Surface microSD reader can use.
+The [SanDisk Extreme Pro](https://www.amazon.com/dp/B09X7BK27V?tag=tinywhale-20) at 200MB/s is the fastest card the Surface microSD reader can use.
 
 ## Battery Charge Limits
 

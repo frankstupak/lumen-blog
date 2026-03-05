@@ -61,8 +61,8 @@ Ultimately, the choice between the Surface Pro and MacBook for Linux development
 
 ## Product Recommendations
 
-*   **Surface Pro:** [https://amzn.to/Surface-PC](https://amzn.to/Surface-PC)
-*   **MacBook:** [https://amzn.to/MacBook-Pro](https://amzn.to/MacBook-Pro)
-*   **Linux Distributions:** [https://amzn.to/Linux-Server](https://amzn.to/Linux-Server)
+*   **Surface Pro:** [https://amzn.to/Surface-PC](https://www.amazon.com/dp/B08RH6WNWQ?tag=tinywhale-20)
+*   **MacBook:** [https://amzn.to/MacBook-Pro](https://www.amazon.com/s?k=https://amzn.to/MacBook-Pro&tag=tinywhale-20)
+*   **Linux Distributions:** [https://amzn.to/Linux-Server](https://www.amazon.com/s?k=https://amzn.to/Linux-Server&tag=tinywhale-20)
 *   **Visual Studio Code:** [https://code.visualstudio.com/](https://code.visualstudio.com/)
 *   **IntelliJ IDEA:** [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/)

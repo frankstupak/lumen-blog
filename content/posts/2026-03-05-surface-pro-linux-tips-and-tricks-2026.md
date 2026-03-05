@@ -75,15 +75,15 @@ Installing Windows and Linux dual-boot on Surface Pro can be a bit more involved
 
 Here are a few product recommendations that can help you get the most out of your Surface Pro:
 
-* **[Samsung EVO Plus](https://amzn.to/PLACEHOLDER)**: A high-capacity NVMe SSD that offers fast storage and high performance.
-* **[Gigabyte AORUS M7700](https://amzn.to/PLACEHOLDER)**: A high-performance motherboard that supports multiple storage drives and peripherals.
-* **[Dell Alienware 15 R2](https://amzn.to/PLACEHOLDER)**: A powerful gaming laptop that offers high-performance processors and advanced cooling systems.
+* **[Samsung EVO Plus](https://www.amazon.com/dp/B09QBN6HCJ?tag=tinywhale-20)**: A high-capacity NVMe SSD that offers fast storage and high performance.
+* **[Gigabyte AORUS M7700](https://www.amazon.com/s?k=Gigabyte+AORUS+M7700&tag=tinywhale-20)**: A high-performance motherboard that supports multiple storage drives and peripherals.
+* **[Dell Alienware 15 R2](https://www.amazon.com/s?k=Dell+Alienware+15+R2&tag=tinywhale-20)**: A powerful gaming laptop that offers high-performance processors and advanced cooling systems.
 
 ### 9. Affiliate Links
 
-* **[Microsoft Surface Laptop 3](https://amzn.to/PLACEHOLDER)**: A great laptop for general use, with a 13.5-inch display and 12th Gen Intel Core processors.
-* **[Samsung EVO Plus 1TB](https://amzn.to/PLACEHOLDER)**: A high-capacity NVMe SSD that offers fast storage and high performance.
-* **[Gigabyte AORUS M7700 Motherboard](https://amzn.to/PLACEHOLDER)**: A high-performance motherboard that supports multiple storage drives and peripherals.
+* **[Microsoft Surface Laptop 3](https://www.amazon.com/dp/B08RH6WNWQ?tag=tinywhale-20)**: A great laptop for general use, with a 13.5-inch display and 12th Gen Intel Core processors.
+* **[Samsung EVO Plus 1TB](https://www.amazon.com/dp/B09QBN6HCJ?tag=tinywhale-20)**: A high-capacity NVMe SSD that offers fast storage and high performance.
+* **[Gigabyte AORUS M7700 Motherboard](https://www.amazon.com/s?k=Gigabyte+AORUS+M7700+Motherboard&tag=tinywhale-20)**: A high-performance motherboard that supports multiple storage drives and peripherals.
 
 ### 10. Conclusion
 
